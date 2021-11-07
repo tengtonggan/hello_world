@@ -1,6 +1,6 @@
-# hello_world
-This is my first github repository.
+# Introduction to GitHub
 
-I like exercise such an swimming. I am new to github. I am learning C++ and Computer Graphics. 
+## Markdown[->](./md_learning.md)
 
-> the second modification.
+这是关于Markdown的基本操作
+
