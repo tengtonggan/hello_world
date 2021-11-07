@@ -62,7 +62,7 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
   >
   > 2. **工作区修改后`git add`到暂存区，没有`git commit`**：`git status`后提示我们，用命令**`git reset HEAD <file>`**可以把暂存区的修改撤销掉（unstage）,即`git reset HEAD readme.txt`
   >
-  >    > 1. `git reset`命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用`HEAD`时，表示最新的版本。
+  >    > 1. `git reset`命令既可以回退版本，也 可以把暂存区的修改回退到工作区。当我们用`HEAD`时，表示最新的版本。
   >    > 2. 再用`git status`查看一下，现在暂存区是干净的，工作区有修改，同上可用**`git checkout -- readme.txt`**丢弃工作区的修改.
   > 3. 工作区修改后`git add`到暂存区，并且`git commit`到版本库，可以用上节的版本回退，回退到上一个版本。不过前提是没有推送到远程库。
 
