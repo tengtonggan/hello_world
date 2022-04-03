@@ -5,7 +5,7 @@
 ## **Markdown 教程**：[菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
 
 ## 基本操作：
-   - **粗体** *斜体*  ***粗斜体**
+   - **粗体** *斜体*  ***粗斜体***
 
    - 
      分割线 `***`

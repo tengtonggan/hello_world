@@ -1,0 +1,1 @@
+# Lamda表达式[->](https://www.zhihu.com/search?q=lamda%E8%A1%A8%E8%BE%BE%E5%BC%8F%20c%2B%2B&utm_content=search_suggestion&type=content)
