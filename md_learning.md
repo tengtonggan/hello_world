@@ -2,7 +2,9 @@
 
 ## 工具推荐：[Typora](https://typora.io/)
 
-## **Markdown 教程**：[菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
+## **Markdown 教程**：
+- [菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
+- [Markdown Preview Enhanced (MPE)](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
 
 ## 基本操作：
    - **粗体** *斜体*  ***粗斜体***
@@ -61,3 +63,23 @@
 
 [^runoob]: 菜鸟教程
 
+## 高级教程
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
+
+目前支持的 HTML 元素有：\<kbd> \<b> \<i> \<em> \<sup> \<sub> \<br>等 ，如：
+
+> 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+
+$$
+\begin{Bmatrix}
+   a & b \\
+   c & d
+\end{Bmatrix}
+$$
+$$
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+$$
