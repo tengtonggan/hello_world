@@ -42,7 +42,27 @@
          cout<<"Hello, world! "<<endl;
      }
      ```
-     
+  - Mermaid [mermaid文档](https://mermaid-js.github.io/mermaid/#/)
+    ```mermaid
+    graph LR
+    A-->B;
+    B-->C;
+    C-->A;
+    ```
+    ```mermaid
+    flowchart LR
+    a --> b & c--> d
+    ```
+  - 代码行数
+    如果你想要你的代码块显示代码行数，只要添加 `line-numbers` class 就可以了。  
+    ```c++{.line-numbers}
+    #include<iostream>
+    using namespace std;
+    int main(){
+         return 0;
+    }
+    ```
+
    - 这是一个链接 [菜鸟教程](https://www.runoob.com)
 
    - 图片
