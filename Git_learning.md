@@ -51,6 +51,13 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
   > -   如果令行窗口被关掉，可以用命令`git reflog`用来记录你的每一次命令。
 
 ---
+- 区别查看
+
+  > 1. 显示暂存区和工作区的差异`git diff [file]`
+  > 2. 显示暂存区和上一次提交(commit)的差异: `git diff --cached [file]` 或者 `git diff --staged [file]`
+  > 3. 显示两次提交之间的差异: `git diff [first-branch]...[second-branch]`
+
+---
 - 撤销修改
 
   > 1. **工作区修改**：命令**`git checkout -- readme.txt`**意思就是，把`readme.txt`文件在工作区的修改全部撤销，这里有两种情况：
